@@ -167,7 +167,7 @@ def drawAnnotations(image, predictions, ax=None):
     return ax
 
 
-def drawBoxes(image, boxes, color=(255, 0, 0), thickness=5, boxes_format='boxes'):
+def drawBoxes(image, boxes, color=(255, 0, 0), thickness=1, boxes_format='boxes'):
     """Draw boxes onto an image.
 
     Args:
