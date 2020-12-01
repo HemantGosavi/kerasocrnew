@@ -203,7 +203,7 @@ def drawBoxes(image, boxes, color=(255, 0, 0), thickness=1, boxes_format='boxes'
         cv2.polylines(img=canvas,
                       pts=box[np.newaxis].astype('int32'),
                       color=color,
-                      thickness=thickness,
+                      thickness=1,
                       isClosed=True)
     return canvas
 
